@@ -1,0 +1,24 @@
+{
+  "name": "react-ts-antd-mobx-admin-starter",
+  "version": "1.0.0",
+  "description": "React + TypeScript + Ant Desgin + MobX + Jest 后台管理系统模板",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./config/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacky-Summer/react-ts-antd-mobx-admin-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacky-Summer/react-ts-antd-mobx-admin-starter/issues"
+  },
+  "homepage": "https://github.com/Jacky-Summer/react-ts-antd-mobx-admin-starter#readme",
+  "devDependencies": {
+    "webpack": "4.46.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
