@@ -7,9 +7,11 @@ module.exports = {
     'airbnb',
     'plugin:react/recommended',
     'plugin:import/typescript',
+    'plugin:@typescript-eslint/recommended',
     'plugin:unicorn/recommended',
     'plugin:prettier/recommended',
   ],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -28,5 +30,7 @@ module.exports = {
   plugins: ['react', 'eslint-plugin-react', 'eslint-plugin-react-hooks', 'unicorn'],
   rules: {
     'prettier/prettier': 'error', // if prettier and eslint conflict, throw to eslint --fix
+
+    '@typescript-eslint/no-var-requires': 'off',
   },
 }

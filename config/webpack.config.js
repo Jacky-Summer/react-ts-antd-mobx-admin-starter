@@ -6,4 +6,10 @@ module.exports = {
     path: path.resolve(__dirname, '../dist'),
     filename: 'app.js',
   },
+  resolve: {
+    extensions: ['.tsx', '.ts', 'js', '.json'],
+    alias: {
+      src: path.resolve(__dirname, 'src'),
+    },
+  },
 }
