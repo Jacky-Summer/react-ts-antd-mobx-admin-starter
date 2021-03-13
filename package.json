@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Jacky-Summer/react-ts-antd-mobx-admin-starter#readme",
   "devDependencies": {
+    "prettier": "^2.2.1",
     "webpack": "4.46.0",
     "webpack-cli": "^4.5.0"
   }
