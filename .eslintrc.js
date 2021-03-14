@@ -24,13 +24,17 @@ module.exports = {
       node: {
         extensions: ['.tsx', '.ts', '.js', '.json'],
       },
+      typescript: {},
       alias: [['src', './src']],
     },
   },
   plugins: ['react', 'eslint-plugin-react', 'eslint-plugin-react-hooks', 'unicorn'],
   rules: {
     'prettier/prettier': 'error', // if prettier and eslint conflict, throw to eslint --fix
+    'no-use-before-define': 'off',
 
     '@typescript-eslint/no-var-requires': 'off',
+
+    'react/jsx-filename-extension': 'off',
   },
 }
