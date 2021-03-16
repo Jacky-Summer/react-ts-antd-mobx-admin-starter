@@ -36,5 +36,7 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
 
     'react/jsx-filename-extension': 'off',
+
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
 }
