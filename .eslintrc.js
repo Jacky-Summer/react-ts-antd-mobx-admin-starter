@@ -9,7 +9,7 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
     'plugin:unicorn/recommended',
-    'plugin:prettier/recommended',
+    'plugin:prettier/recommended', // resolve eslint and prettier conflict
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -30,7 +30,6 @@ module.exports = {
   },
   plugins: ['react', 'eslint-plugin-react', 'eslint-plugin-react-hooks', 'unicorn'],
   rules: {
-    'prettier/prettier': 'error', // if prettier and eslint conflict, throw to eslint --fix
     'no-use-before-define': 'off',
 
     '@typescript-eslint/no-var-requires': 'off',
