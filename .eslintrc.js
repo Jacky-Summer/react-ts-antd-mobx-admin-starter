@@ -35,7 +35,7 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
 
     'react/jsx-filename-extension': 'off',
-
+    'unicorn/prefer-query-selector': 'off',
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
 }
