@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import './index.scss'
+import './index.less'
 
 const Header: FC = () => {
   return <header>test header</header>
