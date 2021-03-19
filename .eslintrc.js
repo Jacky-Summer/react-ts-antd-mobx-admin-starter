@@ -37,5 +37,6 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'unicorn/prefer-query-selector': 'off',
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'global-require': 'off',
   },
 }
