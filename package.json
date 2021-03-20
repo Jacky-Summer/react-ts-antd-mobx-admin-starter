@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "webpack serve --open --config ./config/webpack.dev.js",
     "build": "webpack --config ./config/webpack.prod.js",
+    "lint": "yarn lint:eslint && yarn lint:css",
     "lint:eslint": "eslint src/**/*.{js,jsx,ts,tsx}",
     "lint:css": "stylelint src/**/*.{css,scss,less} --fix",
     "commit": "git-cz",
